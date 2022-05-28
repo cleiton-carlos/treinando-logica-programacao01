@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.corpo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+th {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+table , th , td{
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 300px;
+}
+
+table {
+  border-collapse: collapse;
+}
